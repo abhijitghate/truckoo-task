@@ -1,0 +1,361 @@
+{
+    "question.tire1_r_profile": {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "1-\u0432\u0430 \u043e\u0441 | \u041e\u0446\u0435\u043d\u043a\u0430 \u043d\u0430 \u043f\u0440\u043e\u0444\u0438\u043b\u0430 \u043d\u0430 \u0433\u0443\u043c\u0438\u0442\u0435",
+                "bs-BA": "1. osovina | Procenite profil guma",
+                "cs-CZ": "Profil pneumatiky 1. osy Strana spolujezdce",
+                "de-DE": "1te Achse | Bewerten Sie das Reifenprofil",
+                "en-GB": "1st axle | Assess the tire profile",
+                "es-ES": "Perfil de los neum\u00e1ticos del 1. eje, lado del  Pasajero",
+                "fr-FR": "Bande de roulement du 1er essieu | c\u00f4t\u00e9 passager",
+                "it-IT": "Battistrada del primo assale / lato passeggero",
+                "pl-PL": "Bie\u017cnik opon pierwszej osi  | Strona pasa\u017cera",
+                "ro-RO": "Profilul primei axe | partea pasagerului",
+                "ru-RU": "\u0420\u0438\u0441\u0443\u043d\u043e\u043a \u043f\u0440\u043e\u0442\u0435\u043a\u0442\u043e\u0440\u0430 1-\u0439 \u043e\u0441\u0438 | \u0441\u043e \u0441\u0442\u043e\u0440\u043e\u043d\u044b \u043f\u0430\u0441\u0441\u0430\u0436\u0438\u0440\u0430"
+            },
+            "offer": {
+                "bg-BG": "\u041f\u0440\u043e\u0444\u0438\u043b \u043d\u0430 \u0433\u0443\u043c\u0430\u0442\u0430 \u043d\u0430 1-\u0432\u0430 \u043e\u0441 | \u041f\u044a\u0442\u043d\u0438\u0447\u0435\u0441\u043a\u0438",
+                "bs-BA": "Profil gume na 1. osovini | Putni\u010dka strana",
+                "de-DE": "Reifenprofil der 1ten Achse | Beifahrerseite",
+                "en-GB": "Tire profile at 1st axle | Passenger side",
+                "it-IT": "Profilo del pneumatico al 1 \u00b0 asse | Lato passeggero"
+            }
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "it-IT": true
+        },
+        "technicalDescription": "1te Achse | Bewerten Sie das Reifenprofil",
+        "uid": "question.tire1_r_profile"
+    },
+    "question.tire1_r_profile.description": {
+        "contexts": {
+            "assessment": {
+                "bs-BA": "Na strani suvoza\u010da",
+                "de-DE": "Auf der Beifahrerseite",
+                "en-GB": "at the passenger side"
+            },
+            "offer": {
+                "de-DE": "Beifahrerseite"
+            },
+            "tag": {
+                "de-DE": "Rechts",
+                "it-IT": "destra"
+            }
+        },
+        "qualityAssured": {
+            "bs-BA": true
+        },
+        "technicalDescription": "1te Achse | Bewerten Sie das Reifenprofil",
+        "uid": "question.tire1_r_profile.description"
+    },
+    "question.tire1_r_profile.option.tire1_r_profile_new": {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "\u041d\u043e\u0432 \u043f\u0440\u043e\u0444\u0438\u043b (15 \u043c\u043c+)",
+                "bs-BA": "Kao nov (15 mm+)",
+                "cs-CZ": "Stejn\u00fd jako nov\u00fd profil (15 mm +)",
+                "de-DE": "Neuwertiges Profil (15mm+)",
+                "en-GB": "As good as new profile (15mm+)",
+                "es-ES": "Nuevo perfil (15 mm+)",
+                "fr-FR": "nouveau Pneu (15 mm+)",
+                "it-IT": "Profilo nuovo (15mm+)",
+                "pl-PL": "Jak nowy  (15 mm+)",
+                "ro-RO": "Profil nou (15 mm+)",
+                "ru-RU": "\u041d\u043e\u0432\u044b\u0439 (15 \u043c\u043c+)"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "it-IT": true
+        },
+        "technicalDescription": "Neuwertiges Profil (15mm+)",
+        "uid": "question.tire1_r_profile.option.tire1_r_profile_new"
+    },
+    "question.tire1_r_profile.option.tire1_r_profile_good": {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "\u0414\u043e\u0431\u044a\u0440 (14 - 10 \u043c\u043c)",
+                "bs-BA": "Dobar  (14 - 10mm)",
+                "cs-CZ": "Dobr\u00fd (14-10 mm)",
+                "de-DE": "Gut (14 - 10mm)",
+                "en-GB": "Good (14 - 10mm)",
+                "es-ES": "Bueno (14 - 10mm)",
+                "fr-FR": "Bon (14 - 10mm)",
+                "it-IT": "Buono (14 - 10mm)",
+                "pl-PL": "Dobry (14 - 10mm)",
+                "ro-RO": "Bun (14 - 10 mm",
+                "ru-RU": "\u0425\u043e\u0440\u043e\u0448\u0438\u0439 (14 - 10 \u043c\u043c)"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "it-IT": true
+        },
+        "technicalDescription": "Gut (14 - 10mm)",
+        "uid": "question.tire1_r_profile.option.tire1_r_profile_good"
+    },
+    "question.tire1_r_profile.option.tire1_r_profile_used": {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "\u0418\u0437\u043f\u043e\u043b\u0437\u0432\u0430\u043d\u0438 (9 - 5\u043c\u043c)",
+                "bs-BA": "Kori\u0161ten (9 - 5mm)",
+                "cs-CZ": "Pou\u017eit\u00fd (9 - 5 mm)",
+                "de-DE": "Gebraucht (9 - 5mm)",
+                "en-GB": "Used (9 - 5mm)",
+                "es-ES": "Usado (9 - 5mm)",
+                "fr-FR": "Utilis\u00e9 (9 - 5mm)",
+                "it-IT": "Usato (9 - 5mm)",
+                "pl-PL": "U\u017cywany (9 - 5mm)",
+                "ro-RO": "Folosit (9 - 5 mm)",
+                "ru-RU": "\u0418\u0437\u043d\u043e\u0448\u0435\u043d\u043d\u044b\u0439 (9 - 5 \u043c\u043c)"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "cs-CZ": true,
+            "en-GB": true,
+            "it-IT": true
+        },
+        "technicalDescription": "Gebraucht (9 - 5mm)",
+        "uid": "question.tire1_r_profile.option.tire1_r_profile_used"
+    },
+    "question.tire1_r_profile.option.tire1_r_profile_bad": {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "\u041f\u0440\u0438\u0445\u0432\u0430\u043d\u0430\u0442 (4 - 0 \u043c\u043c)",
+                "bs-BA": "Istro\u0161en (4 - 0mm)",
+                "cs-CZ": "Crazy (4 - 0 mm)",
+                "de-DE": "Abgefahren (4 - 0mm)",
+                "en-GB": "Worn tires (4 - 0mm)",
+                "es-ES": "desgastado (4 - 0mm)",
+                "fr-FR": "Mauvais (4 - 0mm)",
+                "it-IT": "Usurato (4 - 0mm)",
+                "pl-PL": "Zu\u017cyty (4 - 0mm",
+                "ro-RO": "Ciudat (4 -0 mm)",
+                "ru-RU": "\u041f\u043b\u043e\u0445\u043e\u0439 (4 - 0 \u043c\u043c)"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "it-IT": true
+        },
+        "technicalDescription": "Abgefahren (4 - 0mm)",
+        "uid": "question.tire1_r_profile.option.tire1_r_profile_bad"
+    },
+    "question.tire1_r_profile.option.tire1_r_profile_dead": {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "\u041d\u044f\u043c\u0430 \u043f\u0440\u043e\u0444\u0438\u043b - \u043d\u0435\u0433\u043e\u0434\u043d\u0438 \u0437\u0430 \u0448\u043e\u0444\u0438\u0440\u0430\u043d\u0435",
+                "bs-BA": "Bez profila - nije pogodan za vo\u017enju",
+                "cs-CZ": "\u017d\u00e1dn\u00fd profil - nevhodn\u00fd pro \u0159\u00edzen\u00ed",
+                "de-DE": "Kein Profil - Fahruntauglich",
+                "en-GB": "No profile - unable to drive",
+                "es-ES": "Sin perfil - No apto para conducir",
+                "fr-FR": "Pas de Pneu - inapte \u00e0 conduire",
+                "it-IT": "Nessun profilo - non adatto alla guida",
+                "pl-PL": "Brak bie\u017cnika - Niezdolny do prowadzenia pojazdu",
+                "ro-RO": "F\u0103r\u0103 profil - scos din circula\u021bie",
+                "ru-RU": "\u0411\u0435\u0437 \u043f\u0440\u043e\u0442\u0435\u043a\u0442\u043e\u0440\u0430 - \u043d\u0435\u043f\u0440\u0438\u0433\u043e\u0434\u0435\u043d \u0434\u043b\u044f \u0432\u043e\u0436\u0434\u0435\u043d\u0438\u044f"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "it-IT": true
+        },
+        "technicalDescription": "Kein Profil - Fahruntauglich",
+        "uid": "question.tire1_r_profile.option.tire1_r_profile_dead"
+    },
+    "question.tire1_r_profile.instructions.0": {
+        "contexts": {
+            "assessment": {
+                "de-DE": "Starten Sie die Bewertung der Reifenprofile auf der Beifahrerseite des Fahrzeugs",
+                "en-GB": "Start the assessment of tire profiles at the passenger side"
+            }
+        },
+        "technicalDescription": "Starten Sie die Bewertung der Reifenprofile auf der Beifahrerseite des Fahrzeugs",
+        "uid": "question.tire1_r_profile.instructions.0"
+    },
+    "question.tire1_r_profile_picture": {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "1-\u0432\u0430 \u043e\u0441 | \u0421\u043d\u0438\u043c\u043a\u0430 \u043d\u0430 \u043f\u0440\u043e\u0442\u0435\u043a\u0442\u043e\u0440\u0430 \u043d\u0430 \u0433\u0443\u043c\u0430\u0442\u0430",
+                "bs-BA": "1. osovine | Fotografija profila gume",
+                "cs-CZ": "Profil pneumatik fotografie 1. osy Strana spolujezdce",
+                "de-DE": "1te Achse | Foto des Reifenprofils ",
+                "en-GB": "1st axle | Photo of tire profile",
+                "es-ES": "Foto Perfil de los neum\u00e1ticos del 1. eje, lado Pasajero",
+                "fr-FR": "Photo du profil des pneus du 1er essieu | c\u00f4t\u00e9 passager",
+                "it-IT": "1\u00b0 asse | foto del profilo del pneumatico",
+                "pl-PL": "Zdj\u0119cie bie\u017cnika opony pierwszej osi | Strona pasa\u017cera",
+                "ro-RO": "Fotografie profil roat\u0103 axa 1 | parte pasager",
+                "ru-RU": "\u0424\u043e\u0442\u043e \u0440\u0438\u0441\u0443\u043d\u043a\u0430 \u043f\u0440\u043e\u0442\u0435\u043a\u0442\u043e\u0440\u0430 1-\u0439 \u043e\u0441\u0438 | \u043f\u0430\u0441\u0441\u0430\u0436\u0438\u0440\u0441\u043a\u0430\u044f \u0441\u0442\u043e\u0440\u043e\u043d\u0430"
+            },
+            "offer": {
+                "bg-BG": "\u041f\u0440\u043e\u0444\u0438\u043b \u043d\u0430 \u0433\u0443\u043c\u0438\u0442\u0435 \u043d\u0430 1-\u0432\u0430 \u043e\u0441 | \u041f\u044a\u0442\u043d\u0438\u0447\u0435\u0441\u043a\u0438",
+                "bs-BA": "Fotografija profila gume 1. osovine | Suvoza\u010deva strana",
+                "de-DE": "Foto Reifenprofil der 1ten Achse | Beifahrerseite",
+                "en-GB": "Photo of tire profile of 1st axle | Passenger side",
+                "it-IT": "Foto profilo pneumatico del 1 \u00b0 asse | Lato passeggero"
+            }
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "it-IT": true
+        },
+        "technicalDescription": "1te Achse | Foto des Reifenprofils ",
+        "uid": "question.tire1_r_profile_picture"
+    },
+    "question.tire1_r_profile_picture.description": {
+        "contexts": {
+            "assessment": {
+                "bs-BA": "Na strani suvoza\u010da",
+                "de-DE": "Auf der Beifahrerseite",
+                "en-GB": "On the passenger side"
+            }
+        },
+        "qualityAssured": {
+            "bs-BA": true
+        },
+        "technicalDescription": "1te Achse | Foto des Reifenprofils ",
+        "uid": "question.tire1_r_profile_picture.description"
+    },
+    "question.annex_snowequipment_existent": {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "\u0410\u043a\u043e \u0438\u043c\u0430 \u043d\u0430\u043b\u0438\u0447\u043d\u043e \u043e\u0431\u043e\u0440\u0443\u0434\u0432\u0430\u043d\u0435 \u0437\u0430 \u043f\u043e\u0447\u0438\u0441\u0442\u0432\u0430\u043d\u0435 \u043d\u0430",
+                "bs-BA": "Dostupna oprema za uklanjanje snijega",
+                "cs-CZ": "K dispozici je za\u0159\u00edzen\u00ed pro odkl\u00edzen\u00ed sn\u011bhu",
+                "de-DE": "Ist eine Schneer\u00e4um-Ausr\u00fcstung vorhanden",
+                "en-GB": "Is snow clearing equipment available",
+                "es-ES": "Equipo de limpieza de nieve disponible",
+                "fr-FR": "\u00c9quipement de d\u00e9neigement disponible",
+                "it-IT": "\u00c8 disponibile l'attrezzatura per lo sgombero della neve",
+                "pl-PL": "Dost\u0119pne wyposa\u017cenie do od\u015bnie\u017cania",
+                "ro-RO": "Echipament de dez\u0103pezire disponibil",
+                "ru-RU": "\u041e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0434\u043b\u044f \u0443\u0431\u043e\u0440\u043a\u0438 \u0441\u043d\u0435\u0433\u0430"
+            },
+            "offer": {
+                "bg-BG": "\u041d\u0430\u043b\u0438\u0447\u043d\u043e \u043e\u0431\u043e\u0440\u0443\u0434\u0432\u0430\u043d\u0435 \u0437\u0430 \u043f\u043e\u0447\u0438\u0441\u0442\u0432\u0430\u043d\u0435 \u043d\u0430 \u0441\u043d\u044f\u0433",
+                "de-DE": "Schneer\u00e4umausr\u00fcstung vorhanden",
+                "en-GB": "Snow clearing equipment available"
+            }
+        },
+        "technicalDescription": "Ist eine Schneer\u00e4um-Ausr\u00fcstung vorhanden",
+        "uid": "question.annex_snowequipment_existent"
+    },
+    "question.annex_snowequipment_existent.option.annex_snowequipment_yes": {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "\u0414\u0430",
+                "bs-BA": "Da",
+                "cs-CZ": "Jo",
+                "de-DE": "Ja",
+                "en-GB": "Yes",
+                "es-ES": "S\u00ed",
+                "fr-FR": "Oui",
+                "it-IT": "S\u00ec",
+                "pl-PL": "Tak",
+                "ro-RO": "Da",
+                "ru-RU": "\u0414\u0430"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "technicalDescription": "Ja",
+        "uid": "question.annex_snowequipment_existent.option.annex_snowequipment_yes"
+    },
+    "question.annex_snowequipment_existent.option.annex_snowequipment_nein": {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "\u041d\u0435",
+                "bs-BA": "Ne",
+                "cs-CZ": "Ne",
+                "de-DE": "Nein",
+                "en-GB": "No",
+                "fr-FR": "Non",
+                "pl-PL": "nie",
+                "ro-RO": "Nu",
+                "ru-RU": "\u041d\u0435\u0442"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "qualityAssured": {
+            "bs-BA": true
+        },
+        "technicalDescription": "Nein",
+        "uid": "question.annex_snowequipment_existent.option.annex_snowequipment_nein"
+    },
+    "question.greater75_mancarryingplatform_nozzleupperarm_existent": {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "\u0412\u044a\u0440\u0442\u044f\u0449 \u0441\u0435 \u0432 \u0431\u0430\u0433\u0430\u0436\u043d\u0438\u043a\u0430",
+                "bs-BA": "Rotiranje prikolice",
+                "cs-CZ": "Proboscis oto\u010dn\u00fd",
+                "de-DE": "R\u00fcssel drehbar",
+                "en-GB": "Trunk rotatable",
+                "es-ES": "Trompa giratorio",
+                "fr-FR": "Tronc rotatif",
+                "it-IT": "Tronco ruotabile",
+                "pl-PL": "Obrotowa dysza",
+                "ro-RO": "Trunchi pivotant",
+                "ru-RU": "\u041f\u043e\u0432\u043e\u0440\u0430\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043b\u0438 \u0443\u043a\u043e\u0441\u0438\u043d\u0430 \u0441\u0442\u0440\u0435\u043b\u044b \u043a\u0440\u0430\u043d\u0430"
+            },
+            "offer": {}
+        },
+        "technicalDescription": "R\u00fcssel drehbar",
+        "uid": "question.greater75_mancarryingplatform_nozzleupperarm_existent"
+    },
+    "question.greater75_mancarryingplatform_nozzleupperarm_existent.option.greater75_mancarryingplatform_nozzleupperarm_existent_yes": {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "\u0414\u0430",
+                "bs-BA": "Da",
+                "cs-CZ": "Jo",
+                "de-DE": "Ja",
+                "en-GB": "Yes",
+                "es-ES": "S\u00ed",
+                "fr-FR": "Oui",
+                "it-IT": "S\u00ec",
+                "pl-PL": "Tak",
+                "ro-RO": "Da",
+                "ru-RU": "\u0414\u0430"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "technicalDescription": "Ja",
+        "uid": "question.greater75_mancarryingplatform_nozzleupperarm_existent.option.greater75_mancarryingplatform_nozzleupperarm_existent_yes"
+    },
+    "question.greater75_mancarryingplatform_nozzleupperarm_existent.option.greater75_mancarryingplatform_nozzleupperarm_existent_no": {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "\u041d\u0435",
+                "bs-BA": "Ne",
+                "cs-CZ": "Ne",
+                "de-DE": "Nein",
+                "en-GB": "No",
+                "fr-FR": "Non",
+                "pl-PL": "nie",
+                "ro-RO": "Nu",
+                "ru-RU": "\u041d\u0435\u0442"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "technicalDescription": "Nein",
+        "uid": "question.greater75_mancarryingplatform_nozzleupperarm_existent.option.greater75_mancarryingplatform_nozzleupperarm_existent_no"
+    }
+}

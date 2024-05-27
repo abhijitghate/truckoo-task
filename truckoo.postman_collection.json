@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "17b74259-69db-4a9a-978f-17a2db6385d3",
+		"name": "truckoo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8339545"
+	},
+	"item": [
+		{
+			"name": "get displaystring",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/question.tire1_r_profile.description/en-GB/assessment",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"question.tire1_r_profile.description",
+						"en-GB",
+						"assessment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "resolve displaystring",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dictionary\":{\n    \"displaystringUID\": \"question.tire1_r_profile.description\",\n\t\t\"subdocument_01\": {\n\t    \"displaystringUID\": \"question.tire1_r_profile.description\"\n\t\t},\n\t\t\"subdocument_02\": {\n\t    \"displaystringUID\": \"question.tire1_r_profile.description\",\n\t\t\t\"subdocuments\": [\n\t\t\t\t\t{\n\t\t\t\t\t\"displaystringUID\": \"question.tire1_r_profile.description\"\n\t\t\t\t\t},\n\t\t\t\t\t[\"some\", \"weird\", \"other\", {\"displayStringUID\": \"question.tire1_r_profile.description\"}, \"subdocument\"],\n\t\t\t\t\t{\n\t\t\t\t\t\"displaystringUID\": \"question.tire1_r_profile.description\"\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t}\n}\n,\n    \"locale\":\"en-GB\",\n    \"context\":\"assessment\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/resolve/displaystring",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"resolve",
+						"displaystring"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
