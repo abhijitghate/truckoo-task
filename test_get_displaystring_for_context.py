@@ -8,6 +8,8 @@ from get_displaystring import get_displaystring_for_context
 
 
 def mock_get_target_object(displaystring_holder):
+    if displaystring_holder == 'non_existing_uid':
+        return TypeError
     return {
         "contexts": {
             "assessment": {
@@ -50,6 +52,12 @@ class TestGetDisplaystringForContext(unittest.TestCase):
         result = get_displaystring_for_context("question.tire1_r_profile.description", "bg-BG", "tag")
         self.assertEqual(result, 'at the passenger side')
         mock_get_target_object.assert_called_once_with("question.tire1_r_profile.description")
+
+    @patch('get_displaystring.get_target_object', side_effect=mock_get_target_object)
+    def test_non_existing_displaystring_uid(self, mock_get_target_object):
+        result = get_displaystring_for_context("non_existing_uid", "bg-BG", "tag")
+        self.assertEqual(result, None)
+        mock_get_target_object.assert_called_once_with("non_existing_uid")
 
 
 

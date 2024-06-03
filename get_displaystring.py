@@ -25,11 +25,13 @@ def get_displaystring_for_context(displaystring_holder, locale, context):
 
     target_object = get_target_object(displaystring_holder)
 
-    # straighforward lookup
+    # straightforward lookup
     try:
         return  target_object["contexts"][context][locale]
     except KeyError:
         pass
+    except Exception as e:
+        return None
 
     # lookoing up through fallback startegy with given locale
     for item in FALLBACK_HIERARCHY[context]:
@@ -37,7 +39,6 @@ def get_displaystring_for_context(displaystring_holder, locale, context):
             return target_object["contexts"][item][locale]
         except KeyError:
             pass
-    
     
     # trying en-GB (default locale)
     try:
